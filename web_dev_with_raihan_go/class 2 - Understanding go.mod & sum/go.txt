@@ -1,0 +1,17 @@
+"github.com/gorilla/mux"
+
+1. go mod download
+-download modules to local cache
+
+2. go help mod
+
+3. go mod init module_name
+
+4a. go get external_module_name
+-4a will install the module
+
+4b. go get -u external_module_name
+-4b will update the module if it exist in ur PC.
+
+5. go mod tidy 
+-add missing and remove unused modules
